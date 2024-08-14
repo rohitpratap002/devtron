@@ -1,0 +1,17 @@
+.btnPrimary{
+    color: #000212;
+    background: linear-gradient(to right,#FFF1C2 0%,#FFC300 100%);
+    border-radius: 5rem ;
+    border: 2px solid transparent;
+    padding: 1rem 4rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: .5s all ease-in-out;
+}
+.btnPrimary:hover{
+    color: #FFC300;
+    border-color: #FFC300;
+    background: transparent;
+    font-weight: 400;
+}

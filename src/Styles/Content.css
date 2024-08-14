@@ -1,0 +1,81 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    padding: 2rem 5rem;
+}
+.content .left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.content .left h4{ 
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.content .left h4.active{ 
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FFF1C2 0%, #FFC300 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content .left h4::before{ 
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -3rem;
+    transform: translateX(100%);
+    width: 3px;
+    height: calc(100% + 3rem);
+    background: #7D818B;
+    
+}
+.content .left h4:first-child::before{ 
+    transform: translate(100%,25%);
+    
+}
+.content .left h4:last-child::before   {
+    transform: translate(100%,-75%);
+    
+}
+.content .left h4.active::after{ 
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #FFF1C2 0%, #FFC300 100%);
+    
+}
+
+.content .right{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.4rem;
+}
+.content .right .datacard{
+    padding: 2rem 2.5rem;
+    background: #4E2DBF;
+    border: 2px solid #5c38d3;
+    border-radius: 1rem;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}

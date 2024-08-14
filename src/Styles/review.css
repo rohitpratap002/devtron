@@ -1,0 +1,115 @@
+.reviewSec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-top: 8rem;
+}
+.reviewSec .upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviewSec .upper h1{
+    font-family: 'Sora',sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.reviewSec .upper .btns{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.reviewSec .upper .btns p{
+    font-family: 'Sora',sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    padding-right: 2rem;
+}
+.reviewSec .upper .btns button{
+    font-family: 'Sora',sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    height: 5rem;
+    aspect-ratio: 1;
+    background: transparent;
+    border: 1px solid white;
+    border-collapse: separate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.reviewSec .upper .btns button img{
+    transition: .4s all ease-in-out;
+}
+.reviewSec .upper .btns button:hover{
+    background: #fff;
+}
+.reviewSec .upper .btns button:hover img{
+    filter: invert(1);
+}
+.reviewSec .lower{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+.reviewSec .lower .review{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    background: #fff;
+}
+.reviewSec .lower .review .dataDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 4rem;
+}
+.reviewSec .lower .review .dataDiv p{
+    font-family: "Sora",sans-serif;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 31.65px;
+    text-align: left;
+}
+.reviewSec .lower .review .dataDiv h1{
+    font-family: "Sora",sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: left;
+}
+.reviewSec .lower .review .dataDiv h4{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.reviewSec .lower .nxtReview{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+    background: #fff;
+    cursor: pointer;
+}
+.reviewSec .lower .nxtReview img{
+    width: 100%;
+    user-select: none;
+    touch-action: none;
+    -webkit-user-drag: none;
+}
