@@ -238,7 +238,11 @@
     color: #ffdd54;
     font-weight: 600;
 }
-
+@media screen and (min-width:1440px) {
+    .heroSec .upper p{
+        width: 80%;
+    }
+}
 @media screen and (max-width:1025px) {
     .heroSec .upper h1{
       font-size: 5rem;
